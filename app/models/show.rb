@@ -18,4 +18,6 @@ class Show < ActiveRecord::Base
     least_popular_show = Show.find_by(rating: show)
   end
   
+  
+  
 end
