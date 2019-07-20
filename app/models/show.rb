@@ -23,7 +23,7 @@ class Show < ActiveRecord::Base
   end
   
   def self.popular_shows 
-    popular_show_array = Show.where 
+    popular_show_array = Show.where ("rating")
     
   end
   
